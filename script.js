@@ -107,8 +107,8 @@ function checkAnswer() {
 //når bruger gætter rigtigt:
     if (userGuess === randomNumber) {
         numberElement.textContent = randomNumber;
-        changeBackgroundColorTemporarily('lightpink', 3000);
         alert("yay! You guessed the number. Click again to play one more time");
+        changeBackgroundColorTemporarily('lightpink', 2000);
     }
 
 //når man har gættet forkert får man +1 fejl
